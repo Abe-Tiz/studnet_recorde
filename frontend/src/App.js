@@ -1,3 +1,4 @@
+import Create from "./components/Create";
 
 function App() {
   return (
@@ -5,6 +6,7 @@ function App() {
       <h1 className="text-blue-500 text-3xl font-bold underline">
         Hello world!
       </h1>
+      <Create />
       
     </>
   );
